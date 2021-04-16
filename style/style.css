@@ -1,0 +1,605 @@
+@import "stylesheet.css";
+
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+}
+@font-face {
+    font-family: 'Post No Bills Jaffna', sans-serif;
+}
+@font-face {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header__inner {
+    background: black;
+    min-height: 44px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.phone__number {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    border-right: 1px solid #969696;
+    padding: 0 15px 0 10px;
+
+}
+
+.header__mode {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    border-right: 1px solid #969696;
+    padding: 0 15px;
+}
+
+
+.header__time {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 16px;
+    color: #969696;
+
+}
+
+.header__registration {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.header__inner-content {
+    background: #0F0F0F;
+}
+
+.header__inner-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+.menu {
+    padding: 30px 0;
+}
+
+.menu__link-item {
+    list-style-type: none;
+}
+
+.menu__link {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.fas {
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+
+.far {
+    color: #FFFFFF;
+}
+
+#hero {
+background: url("../image/bacround/men.png") center center/cover no-repeat;
+    min-height: 810px;
+}
+
+.hero__inner {
+    min-height: 810px;
+}
+
+.hero__content {
+    padding-top: 160px;
+}
+
+.hero__item {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__item-content {
+    border: 4px solid #fff;
+    padding: 90px 60px;
+}
+
+.hero__lorem {
+    padding-top: 80px;
+}
+
+
+.hero__title {
+    display: block;
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 185px;
+    margin: 0px auto;
+}
+
+.line__logo {
+    width: 179px;
+    left: 870px;
+    border: 1px solid #FFFFFF;
+    background: #ffffff;
+    display: block;
+    margin: -20px auto 7px;
+}
+
+
+.hero__desc {
+    display: block;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 185px;
+    margin: 0 auto;
+}
+
+
+.hero__desc-item {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    width: 730px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+.season__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    padding: 90px 0 50px 0;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+#new__season {
+    background: #000000;
+}
+
+.season__line {
+    width: 120px;
+    background: #FFFFFF;
+    display: block;
+    text-align: center;
+    margin: 0 auto 50px;
+    border: 1px solid #FFFFFF;
+}
+
+.season__bloc {
+    margin-left: -64px;
+}
+
+.season__img {
+    padding: 50px 20px;
+    background: #191B1C;
+    width: 200px;
+
+}
+
+.season__bloc-desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #FFFFFF;
+    width: 140px;
+    display: block;
+    padding: 25px 0 10px 0;
+
+}
+
+.season__bloc-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    display: block;
+    padding-bottom: 90px;
+    color: #D0D0D0;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.item__bg {
+    background: url("../image/bacround/season.png") left center/cover no-repeat;
+    min-height: 730px;
+    margin-right: -75px;
+}
+.season__bg-text {
+    max-width: 880px;
+}
+
+.season__bg-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    display: block;
+    color: #FFFFFF;
+    padding: 480px 0 40px;
+
+}
+
+.season__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    padding: 15px 30px;
+    position: absolute;
+    right: 220px;
+
+}
+
+.row {
+    display: flex;
+    margin: 0 -30px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 30px;
+
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 30px;
+
+}
+
+#old__collection {
+    display: flex;
+}
+
+.old__collection-men {
+    width: 600px;
+    min-height: 600px;
+}
+
+.old__collection-content {
+    padding: 100px 100px;
+    background: black;
+    position: relative;
+}
+
+.old__collection-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.old__collection-line {
+    width: 120px;
+    background: #FFFFFF;
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    border: 1px solid #FFFFFF;
+}
+
+
+.old__collection-desc {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.old__collection {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 1px solid #ffffff;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#new__arrival {
+    background: black;
+    position: relative;
+}
+
+.arrival__row {
+    padding-bottom: 40px;
+    margin: 0 -10px;
+}
+
+.arrival__row-content {
+    margin: 0 -10px;
+    padding-bottom: 150px;
+}
+
+.new__arrival-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    padding-top: 120px;
+}
+
+
+.col-3 {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.new__arrival-clock {
+    padding: 30px 10px;
+    background: #191B1C;
+}
+
+.new__arrival-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.clock__desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #FFFFFF;
+    display: block;
+    margin: 25px 0 10px 0;
+}
+
+.clock__price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+#brand {
+    background: #0F0F0F;
+    position: relative;
+}
+
+.brand__title {
+    font-weight: bold;
+    padding-top: 60px;
+    display: block;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.brand__img {
+    width: 250px;
+    height: 150px;
+    padding-bottom: 80px;
+}
+
+#col__foot {
+    background: url("../image/bacround/col-foot.png") center center/ cover no-repeat;
+    min-height: 400px;
+}
+
+.col__foot-title {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    color: #FFFFFF;
+    padding: 80px 0 40px 0;
+}
+
+.col__foot-desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    width: 350px;
+    color: #FFFFFF;
+}
+
+.foot__category {
+    padding: 10px 0 20px 0;
+    display: block;
+    justify-content: space-between;
+}
+
+.foot__category-layer {
+    display: flex;
+}
+
+.col__category-desc {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: black;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+}
+
+.mailing__desc {
+    font-style: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 0 0 40px 0;
+    width: 350px;
+    display: block;
+    color: #FFFFFF;
+}
+
+.email__label {
+    outline: none;
+    display: flex;
+
+}
+
+#email {
+    padding: 10px 50px 10px 5px;
+    font-weight: normal;
+    font-size: 14px;
+    border: none;
+    color: #ffffff;
+    background: #949494;
+    font-family: 'PT Sans', sans-serif;
+    outline: none;
+}
+
+.btn__email {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 9px 20px;
+    background: black;
+    left: 215px;
+    border: none;
+
+}
+
+.footer {
+    padding: 15px 0;
+    background: black;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.fa-arrow-up {
+    padding-left: 0;
+}

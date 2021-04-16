@@ -1,0 +1,210 @@
+@media (max-width: 1300px) {
+    .header__inner-content {
+        display: block;
+    }
+
+    .header__media {
+        display: none;
+    }
+
+    .media__menu {
+      display: none;
+        transition: all .5s;
+    }
+}
+@media (max-width: 991px) {
+
+    .header__inner {
+        display: block;
+    }
+
+    .burger {
+        display: block;
+        transition: all .5s;
+
+    }
+
+    .header__content {
+        padding: 15px 10px;
+    }
+
+    .header__media {
+        display: block;
+        background: black;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .media__logo {
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Post No Bills Jaffna', sans-serif;
+        font-size: 30px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .media__icon {
+        display: flex;
+    }
+
+    .fa-search {
+        margin: 0 30px 0 30px;
+    }
+
+    .burger__btn {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .burger__btn span:nth-child(1) {
+        width: 25px;
+        height: 3px;
+        background: white;
+        display: inline-block;
+        transition: all .3s ease-in-out;
+    }
+
+    .burger__btn span:nth-child(2) {
+        width: 20px;
+        height: 3px;
+        background: white;
+        margin: 4px 0 4px 5px;
+        display: inline-block;
+        transition: all .3s ease-in-out;
+    }
+
+    .burger__btn span:nth-child(3) {
+        width: 15px;
+        height: 3px;
+        background: white;
+        display: inline-block;
+        margin: 0 0 0 10px;
+        transition: all .3s ease-in-out;
+    }
+
+    .burger__btn-active span:nth-child(2) {
+        width: 25px;
+        height: 3px;
+        background: white;
+        margin: 4px 0 4px 0;
+        display: inline-block;
+    }
+
+    .burger__btn-active span:nth-child(3) {
+        width: 25px;
+        height: 3px;
+        background: white;
+        display: inline-block;
+        margin: 0;
+    }
+
+
+
+    .header__media-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .media__menu-list {
+        list-style-type: none;
+    }
+
+    .media__menu {
+        text-align: center;
+        padding: 80px 0 80px 0;
+    }
+
+    .media__menu-link {
+        font-weight: normal;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #969696;
+    }
+
+    .media__menu-list_item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .header__inner-content {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        margin: -30px 0;
+    }
+
+    .col-6 {
+        padding: 30px 0;
+    }
+
+    .col-3 {
+        padding: 30px 0;
+    }
+
+    .col-4 {
+        padding: 30px 0;
+
+    }
+
+    .hero__content {
+        text-align: center ;
+    }
+
+    .hero__desc-item {
+        width: 450px;
+    }
+
+    .clock {
+        flex-direction: column;
+        align-items: center;
+        margin: -30px 0;
+    }
+
+    .season {
+        position: static;
+    }
+
+    .season__link {
+        position: static;
+        display: block;
+        border: none;
+    }
+
+    #old__collection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .old__collection-men {
+        width: 100%;
+    }
+
+    .brand__img {
+        width: 250px;
+        height: 90px;
+        margin: 0 -40px;
+        padding-bottom: 0;
+    }
+
+    .foot__category {
+        display: flex;
+
+    }
+
+    .footer {
+        padding: 15px 20px;
+        margin-top: 30px;
+    }
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 468px) {
+
+}
